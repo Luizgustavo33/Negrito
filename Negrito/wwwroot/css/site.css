@@ -1,0 +1,332 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-bg {
+    background-color: #f9f9fa;
+}
+
+.section-title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+}
+
+    .section-title h2 {
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        color: #5f687b;
+        position: relative;
+        z-index: 2;
+    }
+
+    .section-title span {
+        position: absolute;
+        top: 30px;
+        color: #f0f1f3;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        font-weight: 700;
+        font-size: 52px;
+        text-transform: uppercase;
+        line-height: 0;
+    }
+
+    .section-title p {
+        margin-bottom: 0;
+        position: relative;
+        z-index: 2;
+        font-weight: bolder;
+    }
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #FBE63D;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* capa */
+#capa {
+    width: 100%;
+    height: 80vh;
+    background: #fff;
+    padding-top: 82px;
+}
+
+    #capa h1 {
+        margin: 0px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 46px;
+        color: #3e4450;
+    }
+
+    #capa h2 {
+        color: #858ea1;
+        margin: 10px 0 30px 0;
+        font-size: 24px;
+    }
+    #capa .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px 10px 30px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #8C52FF;
+    background: #FBE63D;
+    box-shadow: 0 8px 28px rgba(251, 230, 61, NaN);
+}
+
+@media (max-width: 575px) {
+    #capa .capa-img img {
+        width: 80%;
+    }
+}
+
+/*Imagens */
+.img {
+    text-align: center;
+}
+.animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #8C52FF;
+  border-color: #FBE63D;
+}
+
+/*--------------------------------------------------------------
+# Beneficiario
+--------------------------------------------------------------*/
+.beneficiario .content h3 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #5f687b;
+}
+
+.beneficiario .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+    .beneficiario .content ul li {
+        padding-bottom: 10px;
+    }
+
+    .beneficiario .content ul i {
+        font-size: 20px;
+        padding-right: 4px;
+        color: #16df7e;
+    }
+
+/*--------------------------------------------------------------
+# Especialista
+--------------------------------------------------------------*/
+.especialista .content h3 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #5f687b;
+}
+
+.especialista .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+    .especialista .content ul li {
+        padding-bottom: 10px;
+    }
+
+    .especialista .content ul i {
+        font-size: 20px;
+        padding-right: 4px;
+        color: #16df7e;
+    }
+
+    .especialista .especialista-img {
+    text-align: center;
+    }
+/*--------------------------------------------------------------
+# cta
+--------------------------------------------------------------*/
+#cta {
+    background-color: #8C52FF;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+    .cta h3 {
+        color: #FBE63D;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .cta p {
+        color: #fff;
+    }
+
+.cta .cta-btn {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #FBE63D;
+    color: #fff;
+}
+.paci h1 {
+    color: #8C52FF;
+}
+
+/*--------------------------------------------------------------
+# Profissionais
+--------------------------------------------------------------*/
+.profissionais .member {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px 20px;
+    background: #FBE63D;
+}
+
+    .profissionais .member img {
+        max-width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .profissionais .member h4 {
+        font-weight: 700;
+        margin-bottom: 2px;
+        font-size: 18px;
+    }
+
+    .profissionais .member span {
+        font-style: italic;
+        display: block;
+        font-size: 15px;
+    }
+
+    .profissionais .member span2 {
+        display: block;
+        font-size: 13px;
+    }
+
+    .profissionais .member p {
+        padding-top: 10px;
+        font-size: 16px;
+        font-style: italic;
+        color: #5f687b;
+    }
+
+    .profissionais .member li {
+        padding-top: 10px;
+        font-size: 16px;
+        font-style: italic;
+        color: #5f687b;
+    }
+
+    .profissionais .member .social {
+        margin-top: 15px;
+    }
+
+        .profissionais .member .social a {
+            color: #919191;
+            transition: 0.3s;
+        }
+
+.profissionais .member-btn {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #8C52FF;
+    color: #FBE63D;
+    background: #8C52FF;
+}
+
+         
+      /* Sticky footer styles
+-------------------------------------------------- */
+  html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #8C52FF;
+}
+.border-bottom {
+    border-bottom: 1px solid #8C52FF;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    color: #444444;
+}
+.footer {
+    position: absolute;
+    background-color: #8C52FF;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 0px; /* Vertically center the text there */
+    padding: 1rem;
+}
