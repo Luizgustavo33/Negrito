@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Negrito.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Initialcreat : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

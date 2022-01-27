@@ -3,16 +3,15 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <UserSecretsId>aspnet-Negrito-914A6E2F-2061-4DFF-80F3-43BEBEECE75D</UserSecretsId>
+    <ApplicationIcon />
+    <Win32Resource />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Contatoes\Index - Cópia.cshtml" />
-    <Content Remove="Views\Contatoes\main.cshtml" />
     <Content Remove="Views\Especialista.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Views\Contatoes\htmlpage.html" />
+    <Content Remove="Views\Home\Component.razor" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,10 +26,6 @@
 
   <ItemGroup>
     <None Include="wwwroot\Images\logopequena.svg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\NovaPasta\" />
   </ItemGroup>
 
 </Project>

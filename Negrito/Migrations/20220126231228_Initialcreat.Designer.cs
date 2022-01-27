@@ -10,8 +10,8 @@ using Negrito.Data;
 namespace Negrito.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220112232346_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20220126231228_Initialcreat")]
+    partial class Initialcreat
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
