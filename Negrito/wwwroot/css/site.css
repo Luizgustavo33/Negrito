@@ -330,3 +330,13 @@ body {
     line-height: 0px; /* Vertically center the text there */
     padding: 1rem;
 }
+
+/* Mapa
+Set the size of the div element that contains the mapa */
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
