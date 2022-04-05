@@ -13,11 +13,12 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark border-bottom box-shadow mb-3" style="background-color: #8C52FF";>
             <div class="container">
                 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"> <img src="~/Images/logo_negrito_horizontal.png" width="190" height="70" alt="Negrito"></a>
+                
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
@@ -34,28 +35,30 @@
                         </li>
                     </ul>
                     <!--<<partial name="_LoginPartial" /><!-->
-                    </div>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
         <div class="container">
             <main role="main" class="pb-3">
                 @RenderBody()
             </main>
         </div>
 
-        <footer class="border-top footer text-light">
-            <div class="container">
-                &copy; 2022 - Negrito - <a asp-area="" asp-controller="Home" asp-action="Contato" class= "text-warning">Contato</a>
-                <a asp-area="" asp-controller="Pacientes" asp-action="Create" class= "text-warning">Cadastro</a>
-            </div>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-        <script src="~/lib/jquery/dist/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.js"></script>
-        @await RenderSectionAsync("Scripts", required: false)
-    </body>
-    </html>
+    <footer class="border-top footer text-light">
+        <div class="container">
+            &copy; 2022 - Negrito - <a asp-area="" asp-controller="Home" asp-action="Contato" class= "text-warning">Contato</a>
+            <a asp-area="" asp-controller="Pacientes" asp-action="Create" class= "text-warning">Cadastro</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
