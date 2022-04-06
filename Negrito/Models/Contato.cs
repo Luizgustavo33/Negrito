@@ -20,22 +20,22 @@ namespace Negrito.Models
 
         [Column(TypeName = "nvarchar(50)")]
         [Display(Name = "Nome")]
-        [Required]
+        [Required(ErrorMessage = "Campo obrigatório")]
         public string Nome { get; set; }
 
         [Column(TypeName = "nvarchar(50)")]
         [Display(Name = "Email")]
-        [Required]
+        [Required(ErrorMessage = "Campo obrigatório")]
         public string Email { get; set; }
 
         [Column(TypeName = "nvarchar(15)")]
         [Display(Name = "Telefone")]
-        [Required]
+        [Required(ErrorMessage = "Campo obrigatório")]
         public string Telefone { get; set; }
 
         [Column(TypeName = "nvarchar(500)")]
         [Display(Name = "Mensagem")]
-        [Required]
+        [Required(ErrorMessage = "Escreva o motivo do contato")]
 
         public string Mensagem { get; set; }
 

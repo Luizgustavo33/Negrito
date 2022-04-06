@@ -13,7 +13,6 @@ namespace Negrito.Models
     public class Agendamento
     {
         [Key]
-
         [Column("IDAgendamento")]
         [Display(Name = "IDAgendamento")]
         [Required]
@@ -21,14 +20,13 @@ namespace Negrito.Models
 
         [Column(TypeName = "nvarchar(20)")]
         [Display(Name = "Período (Manhã/tarde/noite)")]
-        [Required]
+        [Required(ErrorMessage = "Campo obrigatório")]
         public string Periodo { get; set; }
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:dd-mm-yyyy}", ApplyFormatInEditMode = true)]
         [Display(Name = "Data")]
-
-        [Required]
+        [Required(ErrorMessage = "Campo obrigatório")]
         public DateTime Data { get; set; }
 
         public int Nome_Paciente { get; set; }

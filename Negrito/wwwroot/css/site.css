@@ -213,6 +213,10 @@ a {
 /*--------------------------------------------------------------
 # Profissionais
 --------------------------------------------------------------*/
+profissionais {
+    background-color: #f9f9fa;
+}
+
 .profissionais .member {
     text-align: center;
     margin-bottom: 20px;
